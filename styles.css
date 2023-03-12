@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
+:root {
+    --bg: white;
+    --txt: black; 
+}
+body
+{
+    font-family: "Roboto" , sans-serif;
+}
+.center
+{
+    display: grid;
+    place-items: center;
+}
+.head-style
+{
+    display: grid;
+    place-items: center;
+    border: 1px;
+    border-bottom-style: solid;
+    border-color: white;
+}
+.svg-class
+{
+    width: 200px;
+    height: 85px;
+}
+.center.cont 
+{
+    font-weight: bold;
+}
+a
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: 400px;
+    color: #757070;
+}
+a:nth-child(2)
+{
+    background-color: rgb(0, 106, 255);
+    color: white;
+}
+a:nth-child(3)
+{
+    background-color: black;
+    color: white;
+}
+a:nth-child(4)
+{
+    background-color: white;
+    color: grey;
+}
+a:nth-child(5)
+{
+    background-color: white;
+    color: grey;
+}
+.input-grid
+{
+    display: grid;
+}
+.form-label
+{
+    padding-bottom: 12px;
+}
+.input
+{
+    padding: 15px;
+    width: 400px;
+}
+.input:nth-child(2)
+{
+    margin-bottom: 15px;
+}
+.form-down
+{
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.form-down-button
+{
+    background-color: rgb(74, 137, 255);
+    color: white;
+    width: 400px;
+    border: none;
+    padding: 12px;
+    font-size: large;
+    align-content: center;
+}
+.form-label
+{
+    font: bold;
+}
+a
+{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 12px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    width: 400px;
+    color: #757070;
+}
+a :nth-child(6)
+{
+    text-align: centre;
+    border: #757070;
+}
